@@ -34,7 +34,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <div className="contain">
-        <img src="logo.svg" alt="Logo"/>
+        <h3 style={{marginLeft:'5px'}}>TaskRabbit</h3>
         <span className="incontain">
           <button>
             <Link to="/login">Login</Link>
