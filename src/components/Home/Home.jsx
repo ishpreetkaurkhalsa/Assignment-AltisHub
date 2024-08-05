@@ -49,7 +49,6 @@ const Home = (props) => {
       </div>
       <h2>{props.name ? `Welcome - ${props.name}` : "Login please"}</h2>
       
-      {/* To-Do App */}
       <div className="todo-wrapper">
         <div className="todo-box">
           <div className="todo-header">To-Do List</div>
@@ -75,7 +74,7 @@ const Home = (props) => {
 
       <style jsx>{`
         .home-container {
-          text-align: center; /* Center text in header and buttons */
+          text-align: center; 
         }
         .contain {
           margin-bottom: 20px;
@@ -84,7 +83,7 @@ const Home = (props) => {
           display: flex;
           justify-content: center;
           align-items: center;
-          min-height: 50vh; /* Adjust if needed to ensure there's space around */
+          min-height: 50vh; 
         }
         .todo-box {
           border-radius: 15px;
